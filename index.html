@@ -1,72 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Vite & Gourmand – Traiteur à Bordeaux proposant des menus gourmands pour tous vos événements."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite & Gourmand | Accueil</title>
+  </head>
 
-<head>
-<meta charset="UTF-8">
-<title>Vite et Gourmand</title>
-<link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header id="main-header">
+      <div class="logo">
+        <h1>Vite & Gourmand</h1>
+      </div>
 
-<body>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menus.html">Menus</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<!-- ================= ACCUEIL ================= -->
-<header id="accueil">
-<h1>Vite et Gourmand</h1>
+    <!-- ================= MAIN ================= -->
+    <main id="main-content">
+      <!-- ===== HERO ===== -->
+      <section id="hero">
+        <h2>Des menus gourmands pour tous vos événements</h2>
+        <p>
+          Des recettes simples, savoureuses et accessibles, préparées avec
+          passion depuis plus de 25 ans.
+        </p>
+        <a href="menus.html">Découvrir nos menus</a>
+      </section>
 
-<!-- MENU DE NAVIGATION -->
-<nav>
-<a href="#accueil">Accueil</a> |
-<a href="#recettes">Recettes</a> |
-<a href="#contact">Contact</a>
-</nav>
+      <!-- ===== PRÉSENTATION DE L’ENTREPRISE ===== -->
+      <section id="presentation-entreprise">
+        <h2>Présentation de l’entreprise</h2>
 
-<!-- Textes explicatifs sous le menu -->
-<div>
-<p><strong>Accueil :</strong> présentation du site et de son concept.</p>
-<p><strong>Recettes :</strong> plats rapides, simples et gourmands.</p>
-<p><strong>Contact :</strong> formulaire pour nous contacter.</p>
-</div>
-</header>
+        <p>
+          <strong>Vite & Gourmand</strong> est une entreprise familiale fondée
+          par Julie et José, installée à Bordeaux depuis plus de 25 ans.
+        </p>
 
-<!-- ================= CONTENU PRINCIPAL ================= -->
-<main>
+        <p>
+          Spécialisée dans la préparation de menus pour tous types d’événements
+          (repas quotidiens, fêtes, Noël, Pâques), l’entreprise propose une
+          cuisine généreuse, évolutive et accessible à tous.
+        </p>
 
-<h2>Recettes rapides et gourmandes</h2>
-<p>Découvrez des idées de recettes faciles à préparer au quotidien.</p>
+        <p>
+          Afin d’augmenter leur visibilité et faciliter les commandes, Julie et
+          José ont souhaité créer une application web permettant de consulter
+          les menus et passer commande simplement.
+        </p>
+      </section>
 
-<!-- ================= RECETTES ================= -->
-<section id="recettes">
+      <!-- ===== MENUS (APERÇU) ===== -->
+      <section id="menus">
+        <h2>Nos menus</h2>
 
-<!-- Recette 1 -->
-<article>
-<img src="img/recette1.jpg" alt="Salade fraîche et rapide">
-<h3>Recette 1</h3>
-<p>Une salade fraîche et rapide à préparer.</p>
-</article>
+        <article class="menu-card">
+          <h3>Menu Classique</h3>
+          <p>
+            Un menu équilibré comprenant une entrée, un plat et un dessert,
+            idéal pour les repas du quotidien.
+          </p>
+          <p><strong>À partir de 18 € / personne</strong></p>
+          <a href="menus/menu-classique.html">Voir le menu</a>
+        </article>
 
-<!-- Recette 2 -->
-<article>
-<img src="img/recettecake.jpg" alt="Gâteau au chocolat gourmand">
-<h3>Recette 2</h3>
-<p>Un dessert gourmand et facile à réaliser.</p>
-</article>
+        <article class="menu-card">
+          <h3>Menu Événement</h3>
+          <p>
+            Un menu festif pensé pour les grandes occasions comme Noël, Pâques
+            ou les événements professionnels.
+          </p>
+          <p><strong>À partir de 25 € / personne</strong></p>
+          <a href="menus/menu-evenement.html">Voir le menu</a>
+        </article>
 
-<!-- Recette 3 -->
-<article>
-<img src="img/recettesafe2.jpg" alt="Plat sain et équilibré">
-<h3>Recette 3</h3>
-<p>Un plat équilibré pour manger sainement.</p>
-</article>
+        <article class="menu-card">
+          <h3>Menu Végétarien</h3>
+          <p>
+            Un menu sans viande, respectueux des régimes alimentaires, composé
+            de plats gourmands et équilibrés.
+          </p>
+          <p><strong>À partir de 20 € / personne</strong></p>
+          <a href="menus/menu-vegetarien.html">Voir le menu</a>
+        </article>
+      </section>
+    </main>
 
-</section>
+    <!-- ================= FOOTER ================= -->
+    <footer id="main-footer">
+      <section id="horaires">
+        <h4>Horaires</h4>
+        <p>Lundi – Dimanche : 8h00 – 20h00</p>
+      </section>
 
-</main>
-
-<!-- ================= CONTACT ================= -->
-<footer id="contact">
-<p>© 2026 – Vite et Gourmand</p>
-</footer>
-
-</body>
-
+      <section id="footer-links">
+        <ul>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li
+            ><a href="conditions-generales.html"
+              >Conditions générales de vente</a
+            ></li
+          >
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
